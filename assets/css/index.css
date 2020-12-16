@@ -1,0 +1,167 @@
+body {
+	background-color: #222326;
+	padding: 20px;
+}
+
+h1 {
+	font-family: Cabin, sans-serif;
+	font-size: 32px;
+	margin: 18px 0px;
+}
+
+h2 {
+	font-family: Cabin, sans-serif;
+	font-size: 26px;
+	margin: 16px 0px;
+}
+
+p {
+	font-family: Cabin, sans-serif;
+	font-size: 20px;
+	margin: 14px 0px;
+}
+
+a:link,
+footer a,
+footer a:visited {
+	color: white;
+}
+
+.english-version {
+	color: #222326;
+}
+
+a:hover,
+footer a:hover,
+.english-version a:hover {
+	color: #ba4423;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.blackfont {
+	color: black;
+}
+
+.greyfont {
+	color: #222326;
+}
+
+.whitefont {
+	color: white;
+}
+
+.header {
+	display: block;
+  margin: auto;
+	max-width: 100%;
+	padding: 4px 16px 16px;
+}
+
+.section {
+	margin: 20px auto;
+	border-radius: 32px;
+	background: #fbf8f8;
+	padding: 4px 26px 26px;
+	max-width: 716px;
+}
+
+.linkwrapper {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.button {
+	background-color: #ba4423;
+	border: none;
+	color: white;
+	border-radius: 25px;
+	padding: 8px 20px;
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-family: Cabin, sans-serif;
+  font-size: 20px;
+  margin: 6px 0px;
+  cursor: pointer;
+	width: 220px;
+}
+
+.button:hover {
+	background-color: #ea5d35;
+	color: white;
+}
+
+.button.disabled {
+	cursor: not-allowed;
+	background-color: #777777 !important;
+}
+
+.button.pdf {
+	margin-left: 10px;
+	width: 35px;
+}
+
+#forkongithub a {
+    background: #aa0000;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 40px;
+    font-size: 1rem;
+    line-height: 2rem;
+    position: relative;
+    transition: 0.5s;
+}
+
+#forkongithub a:hover {
+    background: #c11;
+    color: #fff;
+}
+
+#forkongithub a::before,
+#forkongithub a::after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 1px;
+    background: #e2e2e2;
+}
+
+#forkongithub a::after {
+    bottom: 1px;
+    top: auto;
+}
+
+@media screen and (min-width:800px) {
+    #forkongithub {
+        position: fixed;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 200px;
+        overflow: hidden;
+        height: 200px;
+        z-index: 9999;
+    }
+
+    #forkongithub a {
+        width: 200px;
+        position: absolute;
+        top: 60px;
+        right: -60px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    }
+}

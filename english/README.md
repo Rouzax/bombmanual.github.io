@@ -1,3 +1,1 @@
-BombManual.com original file
-============================
-
+Copy of official english bomb defusal manual. For reference and as starting point for future translations.
